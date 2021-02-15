@@ -1,6 +1,6 @@
 version: "3.2"
 services:
-    app:
+    web_app:
       build: ./
       restart: always
       command: npm start
